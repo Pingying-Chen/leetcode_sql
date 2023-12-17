@@ -1,6 +1,6 @@
--- 1581. Customer Who Visited but Did Not Make Any Transactions
+# 1581. Customer Who Visited but Did Not Make Any Transactions
   
--- Write your MySQL query statement below
+# Write your MySQL query statement below
 SELECT customer_id, COUNT(customer_id) AS count_no_trans
 FROM Visits
 WHERE visit_id NOT IN (
